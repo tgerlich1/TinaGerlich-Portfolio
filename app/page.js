@@ -1,3 +1,5 @@
+import ContactForm from "./components/ContactForm";
+
 const skills = [
   "SQL Server & T-SQL",
   "SSIS / SSRS",
@@ -72,7 +74,7 @@ export default function Home() {
     <main>
       <section className="hero shell">
         <div className="hero-copy">
-          <div className="eyebrow">Chapel Hill, Tennessee · Open to remote opportunities</div>
+          <div className="eyebrow">Chapel Hill, Tennessee · Open to remote and permanent opportunities</div>
           <h1>
             I solve problems by understanding <span>how the whole system works.</span>
           </h1>
@@ -238,17 +240,15 @@ export default function Home() {
       </section>
 
       <section className="shell contact" id="contact">
-        <div>
+        <div className="contact-copy">
           <div className="section-kicker">Contact</div>
           <h2>Need someone who can connect the business problem to the technical solution?</h2>
-        </div>
-        <div>
           <p>
             I’m interested in senior database, integration, Dynamics / Power Platform, application,
             and business systems roles where problem solving and end-to-end thinking matter.
           </p>
-          <a href="mailto:terlich99@gmail.com">Reach out here. →</a>
         </div>
+        <ContactForm />
       </section>
 
       <footer className="shell">

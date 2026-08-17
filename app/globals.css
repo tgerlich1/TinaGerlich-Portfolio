@@ -368,20 +368,70 @@ blockquote {
 }
 
 .contact {
-  align-items: end;
+  align-items: start;
 }
 
-.contact p {
+.contact-copy p {
   color: var(--muted);
   font-size: 1.05rem;
   max-width: 540px;
 }
 
-.contact a {
-  color: var(--accent-dark);
-  font-weight: 700;
-  text-underline-offset: 4px;
+.contact-form {
+  display: grid;
+  gap: 18px;
+  padding: clamp(24px, 4vw, 38px);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(24, 32, 38, 0.08);
 }
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.field { display: grid; gap: 7px; }
+.field label { font-weight: 700; font-size: 0.9rem; }
+.field label span { color: var(--muted); font-weight: 400; }
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  padding: 11px 13px;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.field textarea { resize: vertical; min-height: 150px; }
+.field input:focus,
+.field textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(47, 95, 122, 0.14); }
+.honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+
+.submit-button {
+  justify-self: start;
+  border: 0;
+  border-radius: 999px;
+  padding: 13px 20px;
+  background: var(--ink);
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+}
+
+.submit-button:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(24, 32, 38, 0.14); }
+.submit-button:disabled { cursor: wait; opacity: 0.65; }
+.form-status { min-height: 1.65em; margin: -4px 0 0; font-size: 0.94rem; font-weight: 700; }
+.form-status.success { color: #28633d; }
+.form-status.error { color: #9d2f2f; }
 
 footer {
   display: flex;
@@ -456,6 +506,8 @@ footer {
     flex-direction: column;
     gap: 2px;
   }
+
+  .form-row { grid-template-columns: 1fr; }
 
   footer { flex-direction: column; }
 }
