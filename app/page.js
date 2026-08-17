@@ -74,7 +74,7 @@ export default function Home() {
     <main>
       <section className="hero shell">
         <div className="hero-copy">
-          <div className="eyebrow">Chapel Hill, Tennessee · Open to remote opportunities</div>
+          <div className="eyebrow">Chapel Hill, Tennessee · Open to remote and permanent opportunities</div>
           <h1>
             I solve problems by understanding <span>how the whole system works.</span>
           </h1>
