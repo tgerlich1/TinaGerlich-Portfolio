@@ -88,6 +88,14 @@ export default function Home() {
           <div className="actions">
             <a className="button primary" href="#work">See how I solve problems</a>
             <a className="button secondary" href="#contact">Contact me</a>
+            <a
+              className="button secondary"
+              href="https://www.linkedin.com/in/tina-gerlich/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn ↗
+            </a>
           </div>
         </div>
 
