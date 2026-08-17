@@ -93,7 +93,7 @@ export default function Home() {
           <div className="hero-photo-frame">
             <img
               className="hero-photo"
-              src="/headshot.jpeg"
+              src="/tina-gerlich-headshot.png"
               alt="Tina Gerlich"
             />
           </div>
