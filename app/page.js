@@ -247,7 +247,7 @@ export default function Home() {
             I’m interested in senior database, integration, Dynamics / Power Platform, application,
             and business systems roles where problem solving and end-to-end thinking matter.
           </p>
-          <a href="mailto:your-email@example.com">your-email@example.com →</a>
+          <a href="mailto:tgerlich99@gmail.com">Contact →</a>
         </div>
       </section>
 
