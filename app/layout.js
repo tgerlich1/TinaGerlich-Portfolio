@@ -4,7 +4,7 @@ export const metadata = {
   title: "Tina Gerlich | Systems, Data & Integration Problem Solver",
   description:
     "Portfolio of Tina Gerlich — SQL Server, Dynamics 365, Power Platform, data integration, business requirements, documentation, ERP, and end-to-end systems problem solving.",
-  linkedin: "https://www.linkedin.com/in/tina-gerlich/",
+  linkedin: "https://www.linkedin.com/in/tinagerlich/",
   };
 
 export default function RootLayout({ children }) {
