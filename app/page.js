@@ -90,7 +90,7 @@ export default function Home() {
             <a className="button secondary" href="#contact">Contact me</a>
             <a
               className="button secondary"
-              href="https://www.linkedin.com/in/tina-gerlich/"
+              href="https://www.linkedin.com/in/tinagerlich/"
               target="_blank"
               rel="noreferrer"
             >
