@@ -87,6 +87,7 @@ export default function Home() {
           </p>
           <div className="actions">
             <a className="button primary" href="#work">See how I solve problems</a>
+            <a className="button secondary" href="/consulting">Gerlich Consulting</a>
             <a className="button secondary" href="#contact">Contact me</a>
             <a
               className="button secondary"
