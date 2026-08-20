@@ -80,6 +80,18 @@ h1 span { color: var(--accent); }
   flex-wrap: wrap;
 }
 
+.consulting-button {
+  background-color: #D89B2B;
+  border-color: #D89B2B;
+  color: #142328;
+}
+
+.consulting-button:hover {
+  background-color: #B97E18;
+  border-color: #B97E18;
+  color: #ffffff;
+}
+
 .button {
   text-decoration: none;
   padding: 13px 19px;
